@@ -1,0 +1,11 @@
+sandbox:
+  image: codeforpoznan/angular-onboarding
+  # build: .
+  entrypoint: ng serve --open --host=0.0.0.0
+  # entrypoint: tail -f /dev/null
+  working_dir: /angular-onboarding
+  ports:
+    - 4200:4200
+  volumes:
+    - .:/angular-onboarding
+    - /angular-onboarding/node_modules
