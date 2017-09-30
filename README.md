@@ -5,7 +5,7 @@ sandbox environment to go through it.
 
 ## How it works?
 
-* Goto `sandbox` directory
+* Go to `sandbox` directory
 * Execute `docker-compose up`
 * Point your browser into http://localhost:4200/
 * Start hacking in `sandbox/src` files
